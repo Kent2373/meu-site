@@ -25,5 +25,5 @@ h1{
 header{
     background-color: #222;
     padding: 25px;
-    
+    display: flex;
 }
