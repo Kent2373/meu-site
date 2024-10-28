@@ -32,4 +32,9 @@ header{
 header h1{
    font-size: 2.8em;
    font-weight: 400;
+   cursor: pointer;
+}
+header nav{
+    display: flex;
+    align-items: center;
 }
