@@ -38,3 +38,8 @@ header nav{
     display: flex;
     align-items: center;
 }
+header nav a{
+    font-size: 1.4em;
+    margin-right: 1.4em;
+    padding: 14px;
+}
