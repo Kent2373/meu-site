@@ -26,4 +26,9 @@ header{
     background-color: #222;
     padding: 25px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+   font-size: 1em; 
 }
