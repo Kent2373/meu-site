@@ -78,5 +78,6 @@ main .main-content.text p{
 }
 /*Cards*/
 main .techs .cards-containers{
-    
+    display: flex;
+    align-items: center;
 }
