@@ -1,4 +1,4 @@
-
+/*RESET CSS*/
 *{
     margin: 0;
     padding: 0;
@@ -40,13 +40,15 @@ header nav{
     align-items: center;
 }
 header nav a{
-    font-size: 2em;
-    margin-right: 1.4em;
-    padding: 14px;
-
+    margin-right: 1.3em;
+    font-size: 1.5em;
+    padding: 10px;
 }
 header nav a:nth-child(4){
-    margin-right: 0em;
+    margin-right: 0;
+}
+header h1, a{
+    color:#fff
 }
 header h1:hover, a:hover{
     color: #00E0FF;
@@ -58,6 +60,7 @@ main{
     align-content: center;
     justify-content: space-between;
 }
+/*main content*/
 main .main-content{
     display: flex;
     flex-direction: column;
@@ -81,6 +84,7 @@ main .techs .cards-containers{
     display: flex;
     align-items: center;
 }
+/*CARDS*/
 main .techs .cards-containers .card{
     width: 120px;
     height: 120px;
