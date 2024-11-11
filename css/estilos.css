@@ -15,7 +15,7 @@ body{
     justify-content: space-between;
 }
 a{
-    text-decoration: none;
+    text-decoration: none; 
     color: #fff;
     transition: 0.2s ease-in-out;
 }
@@ -121,5 +121,16 @@ main figure img{
     border-radius: 200px;
     margin-bottom: 6%;
     border: 1px solid #00E0FF;
-    
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+main figure  img:hover{
+    box-shadow: 0px 0px 8px #00E0FF;
+}
+footer{
+    background-color: #222;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
